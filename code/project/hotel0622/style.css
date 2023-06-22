@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(152, 143, 132);
+}
+
+/* hotel-main */
+.hotel-main {
+  background: url(./images/main.png);
+  width: 100%;
+  height: 700px;
+  color: white;
+  text-align: center;
+}
+
+.main-text {
+  padding-top: 220px;
+}
+
+.main-btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  color: rgb(43, 24, 24);
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  opacity: 0.9;
+}
+
+/* hotel-ad */
+.hotel-ad {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 246, 234);
+  padding: 80px;
+}
+
+.hotel-ad__text {
+  width: 45%;
+}
+
+.hotel-ad__img {
+  width: 25%;
+}
+
+/* hotel room */
+
+.hotel-room {
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgb(230, 220, 206);
+}
+
+.hotel-rooms {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.hotel-room__img {
+  border-radius: 4px;
+}
+
+.hotel-room__detail {
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgb(43, 24, 24);
+  margin-top: 5px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+/* press and contact */
+.hotel-press {
+  background: url(images/4.png);
+  color: white;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0 !important;
+}
+
+.hotel-press__detail {
+  width: 80%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.hotel-press__detail {
+  width: 350px;
+  height: 200px;
+}
+
+.hotel-contact__detail {
+  width: 350px;
+  height: 200px;
+  border: 1px solid white;
+  padding-left: 15px;
+}
+
+.hotel-contact {
+  color: white;
+  background-color: rgb(87, 53, 37);
+  margin-top: 0;
+}
+
+.hotel-contact__text {
+  margin-left: 65px;
+  margin-bottom: 70px;
+  margin-top: -20px;
+  padding-top: 50px;
+}
+
+.hotel-press__btn {
+  width: 80%;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: rgb(87, 53, 37);
+  color: white;
+}
